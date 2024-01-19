@@ -18,18 +18,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $newUser = $xml->addChild("user");
         $newUser->addChild("ime", $ime);
         $newUser->addChild("prezime", $prezime);
-        $newUser->addChild("datum_rodenja", $datum_rodenja);
-        $newUser->addChild("username", $username);
         $newUser->addChild("email", $email);
+        $newUser->addChild("username", $username);
         $newUser->addChild("password", $password);
     } else {
         $xml = new SimpleXMLElement("<user></user>");
         $xml->addChild("user");
         $xml->user->addChild("ime", $ime);
         $xml->user->addChild("prezime", $prezime);
-        $xml->user->addChild("datum_rodenja", $datum_rodenja);
-        $xml->user->addChild("username", $username);
         $xml->user->addChild("email", $email);
+        $xml->user->addChild("username", $username);
         $xml->user->addChild("password", $password);
     }
 
