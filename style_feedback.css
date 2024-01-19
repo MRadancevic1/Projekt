@@ -1,0 +1,189 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+body, html {
+    font-family: Minecraft;
+    margin: 0;
+    font-size: 18px;
+}
+header {
+    display: block;
+    width: 100%;}
+
+    .hero-image {
+    background-image: url("https://theme.zdassets.com/theme_assets/2155033/8f6b32ff979a426848b5dfbba6a51ff0df9656d1.png");  
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	height: 110px;
+    margin-top: 2.5em;
+      }
+body {
+    background-color: rgb(59, 59, 59);
+	position: relative;
+	height: 500px;
+      }
+.bg-image {
+    background-image: url("https://img.freepik.com/premium-vector/abstract-background-small-squares-gray-colors-with-horizontal-gradient_444390-11154.jpg?w=2000");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    }
+.bg-image1 {
+    background-image: url("https://cdn.videvo.net/videvo_files/video/premium/video0290/thumbnails/_LowPoly25_small.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: rgb(61, 61, 61);
+    }
+    
+    h1,h2 {
+        margin: 0.5em;
+        font-size: 2em;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    main a {
+        color: #35a211;
+        text-decoration: none;
+    }
+    main a:hover {
+        color: #02851f;
+        text-decoration: underline;
+    }
+    p {
+        margin: 1em;
+        line-height: 1.4em;
+        letter-spacing: 0.5px;
+        text-align: left;
+        font-size: 18px;
+    }
+    hr {
+        margin: 1em;
+        border: 1px dotted #27318b;
+        clear: both;
+    }
+    
+    .figure1 {
+        justify-content: center;
+        background-color: rgb(248, 241, 225);
+        float: left;
+        width: 25%;
+        border: 8px solid rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+    }
+    .figure2 {
+        background-color: rgb(248, 241, 225);
+        float: left;
+        width: 25%;
+        border: 8px solid rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+    }
+    .figure3 {
+        padding: 1em;
+        background-color: rgb(26, 26, 26);
+        margin: 1 0em 1em 0em;
+        float: left;
+        width: 25%;
+        border: 8px solid rgb(0, 0, 0);
+        color: white;
+    }
+    .figure5 {
+        padding: 1em;
+        margin: 1 0em 1em 0em;
+        float: right;
+        width: 25%;
+    }
+    
+    img {
+        width: 100%;
+        margin-left: 6.9em;
+        padding-bottom: 0.5em;
+    }
+    .float-left {
+        float: left;
+        margin-right: 1em;
+    }
+
+    .figcaption1{
+        font-family: Minecraft;
+        font-size: 100%;
+        text-align: center;
+        color: rgb(73, 255, 73);
+        font-style: bold;
+        padding-bottom: 0.5em;
+        padding-top: 1em;
+    }
+
+    .figcaption2{
+        font-size: 100%;
+        text-align: center;
+    }
+    img {
+        width: 50%;
+        padding-top: 1%;
+    }
+    footer {
+        background-color: rgb(59, 59, 59);
+        padding: 0.1em;
+        clear: both;
+    }
+    footer p {
+        font-family: sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0.5em;
+    }
+    footer a {
+        color: white;
+    }
+    footer a:hover {
+        color: green;
+    }
+    footer img {
+        width: 40px;
+    }
+    @media screen and (max-width: 768px) {
+        .figure1 {
+            width: 50%;
+            margin: 1em;
+        }
+        .figure2 {
+            width: 90%;
+            margin: 1em;
+        }
+        .figure3 {
+            width: 90%;
+            margin: 1em;
+        }
+        img {
+            width: 90%;
+            margin-left: 6.9em;
+            padding-bottom: 0.5em;
+        }
+    }
